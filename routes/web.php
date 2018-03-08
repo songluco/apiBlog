@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('name/index', 'NameController@index');
+Route::post('name/add', 'NameController@addName');

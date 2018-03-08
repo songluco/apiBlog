@@ -21,4 +21,3 @@ Route::prefix('lessons')->group(function () {
     Route::get('/index', 'LessonsController@getIndex');
     Route::get('/show/{id}', 'LessonsController@getShow');
 });
-
